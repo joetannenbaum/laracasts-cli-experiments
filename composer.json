@@ -1,11 +1,17 @@
 {
     "require": {
-        "joetannenbaum/chewie": "^0.1.0",
+        "joetannenbaum/chewie": "dev-main",
         "laravel/prompts": "^0.1.15"
     },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
+        }
+    },
+    "repositories": {
+        "chewie": {
+            "type": "vcs",
+            "url": "https://github.com/joetannenbaum/chewie.git"
         }
     }
 }
